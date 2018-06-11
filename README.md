@@ -30,9 +30,17 @@ $npm install -g browser-sync
 第四步：使用cmd进入你项目所在的文件夹 [ 千万不要在根目录，会坚持根目录的文件，拖慢电脑速度 ]，输入以下代码：
 
 $browser-sync start --server --files "**"   监控css和html改变
+
+
 //创建服务器 $browser-sync start --server --files "**" 
+
+
 //代理服务器 $browser-sync start --proxy "localhost" --files "**" 
+
+
 可以监控js，css和html改变，Ctrl+s 保存。即可在浏览器实时刷新
+
+
  输入 http://localhost:3000 即可访问，访问文件夹下的html加上对应的路径即可。PS：可以多个浏览器输入网址后分别运行，不影响操作。使用代码编辑程序后，
 
 Ctrl+s 保存后，可以实时刷新。
